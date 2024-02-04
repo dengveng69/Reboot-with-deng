@@ -1,8 +1,14 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
+namespace jar
+{
+    int val = 50;
+}
 
 int main()
 {
-    cout << "Hello World" << endl;
-    return 0;
+    double val = 10.0;
+    cout << val << endl;
+    cout << jar::val << endl;
 }
