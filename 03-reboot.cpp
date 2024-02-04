@@ -41,5 +41,6 @@ int main()
 
 
     vector<vector<int>> v(10,vector<int> (20,0));
+    vector<int> acrr[4];
     return 0;
 }
