@@ -31,6 +31,15 @@ int main()
         cout << endl;
     }
 
+    for(auto i : vec)
+    {
+        for(auto j : i)
+        {
+            cout << j << " ";
+        }
+    }
 
+
+    vector<vector<int>> v(10,vector<int> (20,0));
     return 0;
 }
